@@ -10,10 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5ff26b-9c1f-4274-9f26-14ef6b07e526" name="Changes" comment="second task">
+      <change afterPath="$PROJECT_DIR$/NoFlightException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketsArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketsReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/TicketsArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/TicketsArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/TicketsReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/TicketsReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692804354784</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second task">
+      <created>1692853281023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692853281023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="first task" />
-    <option name="LAST_COMMIT_MESSAGE" value="first task" />
+    <MESSAGE value="second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="second task" />
   </component>
 </project>

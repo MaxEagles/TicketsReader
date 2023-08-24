@@ -1,6 +1,7 @@
 import com.google.gson.Gson;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -27,9 +28,9 @@ public class TicketsReader {
         }
     }
 
-    private static void printMinFlightTimes(Map<String, Integer> minFlightTimes) {
+    private static void printMinFlightTimes(Map<String, Integer> minFlightTimes) throws NoFlightException {
         if(minFlightTimes.size() == 0) {
-            System.out.println("Не найдены маршруты между городами " + originName + " и " + destinationName);
+            throw new NoFlightException(originName, destinationName);
         }
         else {
             System.out.println("Минимальное время полёта между городами " + originName + " и " + destinationName + ":");
@@ -41,16 +42,15 @@ public class TicketsReader {
         }
     }
 
-    private static String readFile(String filename) throws Exception {
+    private static String readFile(String filename) throws FileNotFoundException {
         try (Scanner scanner = new Scanner(new File(filename))){
             StringBuilder stringBuilder = new StringBuilder();
             while (scanner.hasNext()) {
                 stringBuilder.append(scanner.nextLine());
             }
             return stringBuilder.toString();
-        }
-        catch (Exception e) {
-            throw new Exception(e);
+        } catch (FileNotFoundException e) {
+            throw new FileNotFoundException(e.getMessage());
         }
 
     }

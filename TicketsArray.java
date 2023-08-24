@@ -16,7 +16,7 @@ public class TicketsArray {
         return results;
     }
 
-    public double findAvgPrice(String originName, String destinationName) throws Exception {
+    public double findAvgPrice(String originName, String destinationName) throws NoFlightException {
         int sum = 0;
         int k = 0;
         for(Ticket e: tickets) {
@@ -26,12 +26,12 @@ public class TicketsArray {
             }
         }
         if(k == 0) {
-            throw new Exception("Нет подходящих рейсов");
+            throw new NoFlightException(originName, destinationName);
         }
         return (sum * 1.0) / k;
     }
 
-    public double findMedianPrice(String originName, String destinationName) throws Exception {
+    public double findMedianPrice(String originName, String destinationName) throws NoFlightException {
         List<Integer> prices = new ArrayList<>();
         for(Ticket e: tickets) {
             if(e.getOrigin_name().equals(originName) && e.getDestination_name().equals(destinationName)) {
@@ -39,7 +39,7 @@ public class TicketsArray {
             }
         }
         if(prices.size() == 0) {
-            throw new Exception("Нет подходящих рейсов");
+            throw new NoFlightException(originName, destinationName);
         }
         prices = prices.stream().sorted().toList();
         if(prices.size() % 2 == 0) {
