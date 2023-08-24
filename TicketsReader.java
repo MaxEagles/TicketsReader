@@ -1,4 +1,5 @@
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -22,6 +23,9 @@ public class TicketsReader {
                     ") для полёта между городами " + originName +
                     " и " + destinationName +
                     " составляет " + diff);
+        }
+        catch (JsonSyntaxException e) {
+            System.out.println("Поменяйте кодировку файла tickets.json на ANSI");
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -55,7 +59,7 @@ public class TicketsReader {
 
     }
 
-    private static TicketsArray deserialize(String fileContent) {
+    private static TicketsArray deserialize(String fileContent) throws JsonSyntaxException {
         Gson gson = new Gson();
         return gson.fromJson(fileContent, TicketsArray.class);
     }
