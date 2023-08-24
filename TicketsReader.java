@@ -25,7 +25,7 @@ public class TicketsReader {
                     " составляет " + diff);
         }
         catch (JsonSyntaxException e) {
-            System.out.println("Поменяйте кодировку файла tickets.json на ANSI");
+            System.out.println("Попробуйте поменять кодировку файла tickets.json или исправить его");
         }
         catch (Exception e) {
             e.printStackTrace();

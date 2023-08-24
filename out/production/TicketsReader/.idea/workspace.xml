@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5ff26b-9c1f-4274-9f26-14ef6b07e526" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketsReader.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TicketsReader.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketsReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692858653538</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tickets.json added to jar">
+      <created>1692859047871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692859047871</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Json exception">
+      <created>1692860571978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692860571978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +137,8 @@
     <MESSAGE value="NoFlightException" />
     <MESSAGE value="jar file" />
     <MESSAGE value="older version of jdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="older version of jdk" />
+    <MESSAGE value="tickets.json added to jar" />
+    <MESSAGE value="Json exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json exception" />
   </component>
 </project>

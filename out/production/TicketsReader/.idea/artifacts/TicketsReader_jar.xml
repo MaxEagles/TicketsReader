@@ -5,7 +5,6 @@
       <element id="module-output" name="TicketsReader" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/gson-2.10.1.jar" path-in-jar="/" />
-      <element id="file-copy" path="$PROJECT_DIR$/tickets.json" />
     </root>
   </artifact>
 </component>
