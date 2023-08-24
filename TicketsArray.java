@@ -1,6 +1,7 @@
 import lombok.Data;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Data
 public class TicketsArray {
@@ -41,7 +42,7 @@ public class TicketsArray {
         if(prices.size() == 0) {
             throw new NoFlightException(originName, destinationName);
         }
-        prices = prices.stream().sorted().toList();
+        prices = prices.stream().sorted().collect(Collectors.toList());
         if(prices.size() % 2 == 0) {
             return (prices.get(prices.size() / 2) + prices.get(prices.size() / 2 - 1)) / (2 * 1.0);
         }
