@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5ff26b-9c1f-4274-9f26-14ef6b07e526" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicketsReader/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicketsReader/Ticket.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Max/IdeaProjects/TicketsReader/gson-2.10.1.jar",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/Max/IdeaProjects/TicketsReader/tickets.json",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692854668796</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="older version of jdk">
+      <created>1692858653538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692858653538</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +121,7 @@
     <MESSAGE value="second task" />
     <MESSAGE value="NoFlightException" />
     <MESSAGE value="jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar file" />
+    <MESSAGE value="older version of jdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="older version of jdk" />
   </component>
 </project>
