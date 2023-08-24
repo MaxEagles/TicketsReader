@@ -13,6 +13,14 @@ public class TicketsReader {
             TicketsArray tickets = deserialize(readFile(filename));
             Map<String, Integer> minFlightTimes = tickets.findMinFlightTimeForAllCarriers(originName, destinationName);
             printMinFlightTimes(minFlightTimes);
+            double avgPrice = tickets.findAvgPrice(originName, destinationName);
+            double medianPrice = tickets.findMedianPrice(originName, destinationName);
+            double diff = Math.abs(avgPrice - medianPrice);
+            System.out.println("Разница между средней ценой (" + avgPrice +
+                    ") и медианой (" + medianPrice +
+                    ") для полёта между городами " + originName +
+                    " и " + destinationName +
+                    " составляет " + diff);
         }
         catch (Exception e) {
             e.printStackTrace();
